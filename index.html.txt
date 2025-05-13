@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LS Performance Estratégica</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header, footer {
+      background-color: #111;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    h1, h2 {
+      color: #cc0000;
+    }
+    .cta {
+      background-color: #cc0000;
+      color: white;
+      padding: 1rem 2rem;
+      display: inline-block;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 1rem;
+    }
+    .services ul {
+      list-style: none;
+      padding: 0;
+    }
+    .services li {
+      margin: 1rem 0;
+      font-weight: 500;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      background-color: #cc0000;
+      color: white;
+      padding: 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LS Performance Estratégica</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Consultoria Estratégica para Performance Real</h2>
+    <p>Transformamos empresas com soluções inteligentes, práticas e sob medida para sua realidade.</p>
+    <a href="#contato" class="cta">Solicite uma Avaliação Gratuita</a>
+  </section>
+
+  <section id="servicos" class="services">
+    <h2>Nossos Serviços</h2>
+    <ul>
+      <li>✔ Consultoria Estratégica</li>
+      <li>✔ Otimização de Processos</li>
+      <li>✔ Desenvolvimento de Liderança</li>
+      <li>✔ Planejamento Empresarial</li>
+    </ul>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>A LS Performance Estratégica nasceu com o propósito de impulsionar empresas por meio da inteligência estratégica, gestão de alta performance e foco em resultados mensuráveis.</p>
+    <p><strong>Missão:</strong> Ajudar empresas a crescer com eficiência e estratégia. <br>
+       <strong>Visão:</strong> Ser referência nacional em consultoria estratégica. <br>
+       <strong>Valores:</strong> Ética, resultado, inovação, parceria.</p>
+  </section>
+
+  <section id="contato">
+    <h2>Entre em Contato</h2>
+    <form>
+      <input type="text" placeholder="Nome completo" required>
+      <input type="email" placeholder="E-mail" required>
+      <input type="tel" placeholder="Telefone">
+      <textarea placeholder="Escreva sua mensagem..." rows="5" required></textarea>
+      <button type="submit">Enviar Mensagem</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 LS Performance Estratégica | Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
